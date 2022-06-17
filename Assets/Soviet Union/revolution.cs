@@ -9,6 +9,6 @@ public class revolution : UdonSharpBehaviour
 
     void Update()
     {
-        transform.Rotate(new Vector3(0.01f, 0, 0));
+        transform.Rotate(0, -0.01f, 0);
     }
 }
